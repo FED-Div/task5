@@ -87,7 +87,7 @@ p.warning{
 	text-align: right;
 	display: inline-block;
 	width: 30%;
-	margin-right: 30px;
+	margin-right: 10px;
 }
 
 
@@ -123,6 +123,7 @@ p.warning{
 .desc_content{
 	vertical-align: text-top;
 }
+
 
 /*提交按钮是手绘的*/
 .submit_btn{
