@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Task5</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+	<nav>
+		<h1>网站一级标题</h1>
+		<ul>
+			<li><a href="#">导航链接1</a></li>
+			<li><a href="#">导航链接2</a></li>
+			<li><a href="#">导航链接3</a></li>
+			<li><a href="#">导航链接4</a></li>
+			<li><a href="#">导航链接5</a></li>
+		</ul>
+	</nav>
+
+	<aside>
+	<div class="sidenav">
+		<header>
+			<span>|</span><h1>这里以后是一个侧栏, 这是侧栏的标题</h1>
+			<!-- <h1>侧栏注册窗口标题</h1> -->
+		</header>
+
+		<form action="#" method="#">
+		<div class="email_add">
+			<label for="mailAddr" class="label_style">请输入邮箱地址: </label>
+			<input type="email" name="mailAddr" placeholder="这是一个文本输入框">
+			<p class="warning">邮箱地址请按要求格式输入</p>
+		</div>
+
+		<div class="passwd"> 
+			<label for="passwd1" class="label_style">请输入密码: </label>
+			<input type="password" name="passwd1" placeholder="这是一个文本输入框">
+			<br />
+
+			<label for="passwd2" class="label_style">请重复输入密码: </label>
+			<input type="password" name="passwd2" placeholder="这是一个文本输入框">
+			
+			<p class="warning">密码请为6-16位英文数字</p>
+		</div>
+
+
+		<div class="sex_choose">
+			<label for="sex" class="label_style">性别: </label>
+			<!-- TODO: value not show -->
+			<input type="radio" name="sex" value="男" checked="checked"/>男
+			<input type="radio" name="sex" value="女"/>女
+		</div>
+
+		<div class="city_choose">
+			<label for="country" class="label_style">城市: </label>
+			<select name="country" id="country">
+				<option value="1">北京</option>
+				<option value="2">上海</option>
+				<option value="3">广州</option>
+			</select>
+		</div>
+
+		<div class="hobby_choose">
+			<label for="habbit" class="label_style">爱好: </label>
+			<input type="checkbox" name="habbit" value="运动">运动
+			<input type="checkbox" name="habbit" value="艺术">艺术
+			<input type="checkbox" name="habbit" value="科学">科学
+		</div>
+
+		<div class="desc">
+			<label for="profile" class="label_style">个人描述: </label>
+			<textarea name="profile" cols="20" rows="6" class="desc_content"> 这是一个多行输入框, 输入您的个人信息 </textarea>
+		</div>
+
+		<div class="submit_btn">确认提交</div>
+		</form>
+
+	</div>
+	</aside>
+
+	
+	<main>
+
+		<!-- section 1 -->
+		<div class="articles">
+		<section>
+		<div class="single_article">
+			<header>
+				<h1>文章一级标题</h1>
+				<h2>文章二级标题</h2>
+				<span>文章作者</span> <span><time datetime="2015-03-19">文章发表时间</time></span>
+			</header>
+			<article>
+				<p>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 换行了
+				</p>
+				<p>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 换行了
+				</p>
+				<p>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 
+					<a href="http://ife.baidu.com">这里有个链接链接到http://ife.baidu.com</a>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 
+					<b>这里有个粗体字</b>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落.
+				</p>
+				<img src="img.jpg" alt="" style="">
+				<p>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 换行了
+				</p>
+				<p>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 
+					<b>这里有个粗体字</b>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 
+					<a href="http://ife.baidu.com" target="blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 
+				</p>
+			</article>
+		<div>
+		</section>
+
+
+		<!-- section 2 -->
+		<section>
+		<div class="single_article">
+			<header>
+				<h1>另一篇文章一级标题</h1>
+				<h2>文章二级标题</h2>
+				<span>文章作者 </span> <span><time datetime="2015-03-19">文章发表时间</time></span>
+			</header>
+			<article>
+				<p>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 换行了
+				</p>
+				<p>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 换行了
+				</p>
+				<p>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 
+					<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 
+					<b>这里有个粗体字</b>
+					这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 这是一个很长很长的段落, 
+				</p>
+				<img src="img.jpg" alt="" style="">
+				<ul>
+					<li>列表项目一</li>
+					<li>列表项目二</li>
+					<li>列表项目三</li>
+				</ul>			
+			</article>
+			</div>
+		</section>
+
+		<section>
+		<div class="single_article">
+			<article>
+				<header>
+					<h1>图片</h1>
+				</header>
+
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+				
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+				
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+				
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+				
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+				
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+				
+				<div class="img_card">
+					<p>好看的图片</p>
+					<img src="img.jpg" alt="" style="">
+				</div>
+
+			</article>
+		</div>
+		</section>
+
+		<!-- section 3 -->
+		<section>
+		<div class="single_article">
+			<header>
+				<h1>最后一篇文章一级标题</h1>
+				<h2>文章二级标题</h2>
+				<span>文章作者 </span> <span><time datetime="2015-03-19">文章发表时间</time></span>
+			</header>
+
+			<article>
+				<ol>
+					<li>排名1</li>
+					<li>排名2</li>
+					<li>排名3</li>
+				</ol>
+				<p>下面是一个表格, 给表格加了一个border="1"好让你看出是一个表格</p>
+				<!-- <table border="1"> -->
+				<table>
+					<thead>
+						<tr>
+							<th>表头</th><th>表头</th><th>表头</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>表内容单元格</td>
+							<td>表内容单元格</td>
+							<td><a href="#">操作</a></td>
+						</tr>
+						<tr>
+							<td>表内容单元格</td>
+							<td>表内容单元格</td>
+							<td><a href="#">操作</a></td>
+						</tr>
+						<tr>
+							<td>表内容单元格</td>
+							<td>表内容单元格</td>
+							<td><a href="#">操作</a></td>
+						</tr>
+						<tr>
+							<td>表内容单元格</td>
+							<td>表内容单元格</td>
+							<td><a href="#">操作</a></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td>总计</td>
+							<td colspan="2">1000</td>
+						</tr>
+					</tfoot>
+				</table>
+			</article>
+		</div>
+		</section>
+
+
+		</div>
+	</main>
+	
+	
+
+	<footer>
+		<span>版权所有&copy;FED-DIV</span>
+	</footer>
+</body>
+</html>

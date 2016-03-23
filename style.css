@@ -1,0 +1,267 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: #eee;
+	font-family: "Microsoft YaHei";
+}
+
+nav{
+	background: rgb(33, 32, 32);
+	width: 100%;
+	height: 80px;
+}
+
+nav h1{
+	color: white;
+	padding: 20px;
+
+}
+
+nav ul{
+	/*list-style: none;*/
+	float: right;
+	margin-right: 20px;
+	margin-top: -30px;
+}
+
+nav li{
+	/*list-style: none;*/
+	display: inline;
+}
+
+nav a{
+	color: white;
+}
+
+
+/*sidenav*/
+.sidenav{
+	float: right;
+	background: white;
+	border: 1px solid rgb(149, 133, 133);
+	width: 400px;
+	margin-top: 20px;
+	padding:20px;
+}
+
+.sidenav span{
+	font-size: 30px;
+	font-weight: bold;
+	color: #3F51B5;	
+}
+
+.sidenav h1{
+	font-size: 20px;
+	margin: 20px 10px;
+	display: inline;
+}
+
+
+
+
+
+form {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 90%;
+	margin: 10px auto;
+	font-size: 0.9em;
+	color: black;
+	font-weight: bold;
+}
+
+form input{
+	font-family: inherit;
+}
+p.warning{
+	font-size: 0.8em;
+	color: rgb(79, 81, 51);
+	margin-left: 140px;
+	margin-top: 10px;
+	font-weight: normal;
+}
+
+.label_style{
+	text-align: right;
+	display: inline-block;
+	width: 30%;
+	margin-right: 30px;
+}
+
+
+.email_add{
+	margin:20px 0;
+	overflow: hidden;
+	columns: 50% 2;
+}
+
+.passwd{
+	margin:20px 0;
+	overflow: hidden;
+}
+
+.sex_choose{
+	margin:20px 0;	
+}
+
+
+.city_choose{
+	margin:20px 0;	
+}
+
+.hobby_choose{
+	margin:20px 0;	
+}
+
+.desc{
+	margin:20px 0;	
+}
+
+
+.desc_content{
+	vertical-align: text-top;
+}
+
+/*提交按钮是手绘的*/
+.submit_btn{
+	margin: 20px 0;
+	width: 100%;
+	height: 50px;
+	background: lightgreen;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: white;
+	border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*文章内容与标题相距20 px*/
+article{
+	padding-top:20px;
+}
+
+
+.articles{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.single_article{
+	flex:1;
+	background: white;
+	border: 1px solid rgb(149, 133, 133);
+	margin:20px;
+	padding-left: 20px;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.single_article p{
+	line-height: 150%;
+	padding-bottom: 30px;
+	/*padding-left: 10px;*/
+	padding-right: 10px;
+
+}
+
+
+.single_article h2 {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #827878;
+}
+
+.single_article span{
+	display: inline-block;
+	margin-top: 20px
+}
+
+
+.single_article ul,ol{
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+
+img{
+	width: 80%;
+	height: 52%;
+}
+
+.img_card{
+	width: 150px;
+	height: 200px;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin: 10px;
+	background: white;
+	float: left;
+}
+.img_card img{
+	width: 150px;
+	/*height: 200px;*/
+}
+
+
+table{
+	width: 95%;
+	border: 1px solid #eee;
+	margin-bottom:20px;
+	border-spacing: 0px;
+}
+
+table thead{
+	background: #607D8B;
+}
+
+table th{
+	height: 30px; 
+}
+
+table td{
+	border-bottom: 1px solid #eee;
+}
+
+table tfoot{
+	background: #949494;
+}
+
+table tfoot tr{
+	height: 30px;
+}
+
+
+/*footer*/
+footer{
+	background:rgb(33, 32, 32);
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	color: white;
+	line-height:80px;/*垂直居中*/
+}
